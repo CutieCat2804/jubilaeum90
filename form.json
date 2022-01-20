@@ -1,0 +1,54 @@
+{
+  "fvv": 1,
+  "pageHistory": 0,
+  "fbzx": "-4369328065918235640",
+  "action": "e/1FAIpQLScI7-c2sX3ckUWGc5NkSn4ndCOdLUs3nLkGgj7SWR0we-5HBA",
+  "fields": [
+    {
+      "label": "Vorname",
+      "type": "SHORT_ANSWER",
+      "id": "30892623",
+      "required": true
+    },
+    {
+      "label": "Ernährung",
+      "type": "RADIO",
+      "id": "230670775",
+      "options": [
+        { "label": "Vegetarisch", "custom": false },
+        { "label": "Vegan", "custom": false }
+      ],
+      "required": false
+    },
+    {
+      "label": "Weitere Ernährungsbesonderheiten",
+      "type": "LONG_ANSWER",
+      "id": "261757791",
+      "required": false
+    },
+    {
+      "label": "Lieblingskater (Richtige Antwort = beide)",
+      "type": "CHECKBOX",
+      "id": "340201551",
+      "options": [
+        { "label": "Pixel", "custom": false },
+        { "label": "Guppy", "custom": false }
+      ],
+      "required": true
+    },
+    {
+      "label": "Anzahl der Personen",
+      "type": "DROPDOWN",
+      "id": "1061943152",
+      "options": [{ "label": "1" }, { "label": "2" }, { "label": "Viele" }],
+      "required": true
+    }
+  ],
+  "fieldsOrder": {
+    "30892623": 0,
+    "230670775": 1,
+    "261757791": 2,
+    "340201551": 3,
+    "1061943152": 4
+  }
+}
