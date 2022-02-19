@@ -1,54 +1,66 @@
 {
   "fvv": 1,
   "pageHistory": 0,
-  "fbzx": "-4369328065918235640",
-  "action": "e/1FAIpQLScI7-c2sX3ckUWGc5NkSn4ndCOdLUs3nLkGgj7SWR0we-5HBA",
+  "fbzx": "-520625532113791484",
+  "action": "e/1FAIpQLSfJNop9Pd8p4ZIcQ6XgvxfpcaZMuCBDKMQlh9A7Cpm3_uO1gQ",
   "fields": [
     {
-      "label": "Vorname",
+      "label": "Vor-und Nachname",
       "type": "SHORT_ANSWER",
-      "id": "30892623",
+      "id": "2005620554",
       "required": true
     },
     {
-      "label": "Ernährung",
-      "type": "RADIO",
-      "id": "230670775",
-      "options": [
-        { "label": "Vegetarisch", "custom": false },
-        { "label": "Vegan", "custom": false }
-      ],
+      "label": "E-Mail-Adresse",
+      "type": "SHORT_ANSWER",
+      "id": "1045781291",
+      "required": true
+    },
+    {
+      "label": "Telefonnummer",
+      "type": "SHORT_ANSWER",
+      "id": "1166974658",
+      "required": true
+    },
+    {
+      "label": "2. Person",
+      "type": "SHORT_ANSWER",
+      "id": "1128836742",
       "required": false
     },
     {
-      "label": "Weitere Ernährungsbesonderheiten",
-      "type": "LONG_ANSWER",
-      "id": "261757791",
+      "label": "3. Person",
+      "type": "SHORT_ANSWER",
+      "id": "1405852427",
       "required": false
     },
     {
-      "label": "Lieblingskater (Richtige Antwort = beide)",
-      "type": "CHECKBOX",
-      "id": "340201551",
-      "options": [
-        { "label": "Pixel", "custom": false },
-        { "label": "Guppy", "custom": false }
-      ],
-      "required": true
+      "label": "4. Person",
+      "type": "SHORT_ANSWER",
+      "id": "1248248356",
+      "required": false
     },
     {
-      "label": "Anzahl der Personen",
-      "type": "DROPDOWN",
-      "id": "1061943152",
-      "options": [{ "label": "1" }, { "label": "2" }, { "label": "Viele" }],
-      "required": true
+      "label": "5. Person",
+      "type": "SHORT_ANSWER",
+      "id": "1093702533",
+      "required": false
+    },
+    {
+      "label": "6. Person",
+      "type": "SHORT_ANSWER",
+      "id": "1382011162",
+      "required": false
     }
   ],
   "fieldsOrder": {
-    "30892623": 0,
-    "230670775": 1,
-    "261757791": 2,
-    "340201551": 3,
-    "1061943152": 4
+    "1045781291": 1,
+    "1093702533": 6,
+    "1128836742": 3,
+    "1166974658": 2,
+    "1248248356": 5,
+    "1382011162": 7,
+    "1405852427": 4,
+    "2005620554": 0
   }
 }

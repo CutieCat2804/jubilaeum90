@@ -23,6 +23,11 @@ export default function Galerie() {
         <Text as="h1" textStyle="heading-l-uppercase" marginY="40px">
           Bildergalerie
         </Text>
+        <Text textStyle="text-xs" marginBottom="16px">
+          {`Jeden Tag wird es jetzt ein Foto aus der 90jährigen Geschichte des
+          Stammes geben, um die Vorfreude auf unser Jubiläums-Wochenende zu
+          steigern. Lasst Euch überraschen 😊`}
+        </Text>
         <Grid
           templateColumns={{
             base: "repeat(1, 1fr)",
@@ -30,29 +35,29 @@ export default function Galerie() {
             md: "repeat(3, 1fr)",
             lg: "repeat(4, 1fr)",
           }}
-          gap={6}
+          rowGap={10}
+          columnGap={6}
         >
-          {images.slice(0, imageCount).map((image, index) => {
-            const day = "Tag " + (index + 1);
+          {images
+            .slice(0, imageCount + 1)
+            .map((image, index) => {
+              const day = "Tag " + (index + 1);
 
-            return (
-              <GridItem width="100%" key={index}>
-                <Text
-                  as="h2"
-                  textStyle="text-s"
-                  marginBottom="8px"
-                  textAlign="center"
-                >
-                  {day}
-                </Text>
-                <GalleryImage
-                  src={image.src}
-                  alt={day}
-                  caption={image.caption}
-                />
-              </GridItem>
-            );
-          })}
+              return (
+                <GridItem width="100%" key={index}>
+                  <Text as="h2" textStyle="text-s" textAlign="center">
+                    {day}
+                  </Text>
+                  <GalleryImage
+                    src={image.src}
+                    alt={day}
+                    caption={image.caption}
+                    day={day}
+                  />
+                </GridItem>
+              );
+            })
+            .reverse()}
         </Grid>
         <Footer />
       </ContentBox>

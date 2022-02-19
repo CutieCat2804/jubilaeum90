@@ -4,13 +4,15 @@ interface ButtonProps {
   label: string;
   url?: string;
   type?: "submit";
+  display?: string;
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
-  const { label, url, type } = props;
+  const { label, url, type, display } = props;
 
   return (
     <ChakraButton
+      display={display}
       type={type}
       as={type == "submit" ? undefined : "a"}
       href={url}

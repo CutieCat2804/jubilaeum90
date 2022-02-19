@@ -20,6 +20,7 @@ import { images } from "../imageData";
 
 export default function Home() {
   let { imageCount, countdown } = useCountdown();
+  const day = `Tag ${imageCount}`;
 
   return (
     <div>
@@ -108,9 +109,10 @@ export default function Home() {
           </Text>
           <GalleryImage
             src={images[imageCount].src}
-            alt={`Tag ${imageCount + 1}`}
+            alt={day}
             caption={images[imageCount].caption}
             textStyle="text-xs"
+            day={day}
           />
           <Button label="Zur Bildergalerie" url="/galerie" />
         </Box>
