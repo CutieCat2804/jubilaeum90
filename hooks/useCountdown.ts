@@ -12,7 +12,7 @@ export function useCountdown(): {
       24
   );
 
-  let imageCount = Math.max(0, 90 - countdown);
+  let imageCount = Math.max(0, 90 - countdown) - 1;
 
   return { imageCount, countdown };
 }

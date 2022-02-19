@@ -107,13 +107,15 @@ export default function Home() {
             90 Tage vor dem Jubiläum haben wir unsere Fotochallenge begonnen.
             Jeden Tag posten wir hier und auf Social Media ein Bild
           </Text>
-          <GalleryImage
-            src={images[imageCount].src}
-            alt={day}
-            caption={images[imageCount].caption}
-            textStyle="text-xs"
-            day={day}
-          />
+          {images[imageCount] && (
+            <GalleryImage
+              src={images[imageCount].src}
+              alt={day}
+              caption={images[imageCount].caption}
+              textStyle="text-xs"
+              day={day}
+            />
+          )}
           <Button label="Zur Bildergalerie" url="/galerie" />
         </Box>
         <Footer />
