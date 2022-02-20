@@ -25,7 +25,7 @@ interface GalleryImageProps {
 const GalleryImage: React.FC<GalleryImageProps> = (props) => {
   const { src, alt, caption, textStyle, day } = props;
 
-  const Img = () => (
+  const Img = (
     <Image
       maxHeight="70vh"
       margin="auto"
@@ -48,10 +48,10 @@ const GalleryImage: React.FC<GalleryImageProps> = (props) => {
         display={{ base: "none", sm: "block" }}
         onClick={onOpen}
       >
-        <Img />
+        {Img}
       </AspectRatio>
       <Box maxW="400px" margin="8px auto 0" display={{ sm: "none" }}>
-        <Img />
+        {Img}
       </Box>
       <Box margin="20px auto 0" maxWidth="750px">
         {caption.map((captionPart) => (
@@ -73,9 +73,7 @@ const GalleryImage: React.FC<GalleryImageProps> = (props) => {
             right="1rem"
           />
           <ModalBody padding="20px">
-            <Box margin="8px auto 0">
-              <Img />
-            </Box>
+            <Box margin="8px auto 0">{Img}</Box>
           </ModalBody>
         </ModalContent>
       </Modal>
