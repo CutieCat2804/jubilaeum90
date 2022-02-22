@@ -1,7 +1,7 @@
 {
   "fvv": 1,
   "pageHistory": 0,
-  "fbzx": "-520625532113791484",
+  "fbzx": "4461132241244532517",
   "action": "e/1FAIpQLSfJNop9Pd8p4ZIcQ6XgvxfpcaZMuCBDKMQlh9A7Cpm3_uO1gQ",
   "fields": [
     {
@@ -23,44 +23,44 @@
       "required": true
     },
     {
-      "label": "2. Person",
-      "type": "SHORT_ANSWER",
-      "id": "1128836742",
+      "label": "Ich bin Stammesmitglied",
+      "type": "RADIO",
+      "id": "1988812163",
+      "options": [
+        { "label": "Ja", "custom": false },
+        { "label": "Nein", "custom": false }
+      ],
+      "required": true
+    },
+    {
+      "label": "Ich komme Stammesmitglied",
+      "type": "CHECKBOX",
+      "id": "295065933",
+      "options": [
+        { "label": "Freitag", "custom": false },
+        { "label": "Samstag", "custom": false },
+        { "label": "Sonntag", "custom": false }
+      ],
       "required": false
     },
     {
-      "label": "3. Person",
-      "type": "SHORT_ANSWER",
-      "id": "1405852427",
-      "required": false
-    },
-    {
-      "label": "4. Person",
-      "type": "SHORT_ANSWER",
-      "id": "1248248356",
-      "required": false
-    },
-    {
-      "label": "5. Person",
-      "type": "SHORT_ANSWER",
-      "id": "1093702533",
-      "required": false
-    },
-    {
-      "label": "6. Person",
-      "type": "SHORT_ANSWER",
-      "id": "1382011162",
+      "label": "Ich komme ",
+      "type": "CHECKBOX",
+      "id": "1084548225",
+      "options": [
+        { "label": "Samstag Vormittag", "custom": false },
+        { "label": "Samstag Nachmittag", "custom": false },
+        { "label": "Samstag Abend", "custom": false }
+      ],
       "required": false
     }
   ],
   "fieldsOrder": {
+    "295065933": 4,
     "1045781291": 1,
-    "1093702533": 6,
-    "1128836742": 3,
+    "1084548225": 5,
     "1166974658": 2,
-    "1248248356": 5,
-    "1382011162": 7,
-    "1405852427": 4,
+    "1988812163": 3,
     "2005620554": 0
   }
 }

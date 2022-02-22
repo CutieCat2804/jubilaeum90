@@ -1,4 +1,15 @@
-import { Box, Text, Input, Textarea, Select } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  Input,
+  Textarea,
+  Select,
+  RadioGroup,
+  Stack,
+  Radio,
+  CheckboxGroup,
+  Checkbox,
+} from "@chakra-ui/react";
 import form from "../form.json";
 import { GoogleFormProvider, useGoogleForm } from "react-google-forms-hooks";
 import { useRouter } from "next/router";
@@ -15,6 +26,9 @@ const ignoredFieldIds = [
   "1093702533",
   "1382011162",
   "268123908",
+  "1084548225",
+  "295065933",
+  "1988812163",
 ];
 
 const autocomplete = {
@@ -31,9 +45,18 @@ export default function Anmeldung() {
     data.forEach(function (_value, key) {
       formData[key] = data.getAll(key);
     });
+    console.log(formData);
+    let index = 0;
     await Promise.all(
       formData["2005620554"].map(async (name: string) => {
-        const submitData = { ...formData, "2005620554": [name] };
+        const submitData = {
+          ...formData,
+          "2005620554": [name],
+          "1988812163": formData["1988812163" + index],
+          "295065933": formData["295065933" + index],
+          "1084548225": formData["1084548225" + index],
+        };
+        index++;
         await methods.submitToGoogleForms(submitData as any);
       })
     );
@@ -91,20 +114,19 @@ export default function Anmeldung() {
                 switch (field.type) {
                   case "SHORT_ANSWER":
                     return (
-                      <Fragment key={field.id}>
+                      <>
                         {heading}
                         <Input
                           placeholder={field.label}
                           maxWidth="400px"
                           name={field.id}
-                          autoComplete={autocomplete[field.id]}
                           required={field.required}
                         />
-                      </Fragment>
+                      </>
                     );
                   case "LONG_ANSWER":
                     return (
-                      <Fragment key={field.id}>
+                      <>
                         {heading}
                         <Textarea
                           placeholder={field.label}
@@ -112,10 +134,69 @@ export default function Anmeldung() {
                           resize="none"
                           isRequired={field.required}
                         />
-                      </Fragment>
+                      </>
+                    );
+                  case "RADIO":
+                    return (
+                      <>
+                        {heading}
+                        <Box>
+                          <RadioGroup name={field.id}>
+                            <Stack spacing="8px">
+                              {field.options.map((option) => (
+                                <Radio
+                                  key={option.label}
+                                  value={option.label}
+                                  isRequired={field.required}
+                                >
+                                  {option.label}
+                                </Radio>
+                              ))}
+                            </Stack>
+                          </RadioGroup>
+                        </Box>
+                      </>
+                    );
+                  case "CHECKBOX":
+                    return (
+                      <>
+                        {heading}
+                        <CheckboxGroup>
+                          <Stack spacing="8px">
+                            {field.options.map((option) => (
+                              <Checkbox
+                                name={field.id}
+                                key={option.label}
+                                value={option.label}
+                              >
+                                {option.label}
+                              </Checkbox>
+                            ))}
+                          </Stack>
+                        </CheckboxGroup>
+                      </>
+                    );
+                  case "DROPDOWN":
+                    return (
+                      <>
+                        {heading}
+                        <Select
+                          placeholder="Select option"
+                          maxWidth="400px"
+                          isRequired={field.required}
+                          name={field.id}
+                        >
+                          {field.options.map((option) => (
+                            <option key={option.label} value={option.label}>
+                              {option.label}
+                            </option>
+                          ))}
+                        </Select>
+                      </>
                     );
                 }
               })}
+              <Person index={0} />
 
               {[...new Array(numberOfPersons - 1)].map((_, index) => (
                 <Box key={index}>
@@ -134,6 +215,8 @@ export default function Anmeldung() {
                     name="2005620554"
                     required={true}
                   />
+
+                  <Person index={index + 1} />
                 </Box>
               ))}
               <Button display="flex" label="Abschicken" type="submit" />
@@ -145,3 +228,74 @@ export default function Anmeldung() {
     </div>
   );
 }
+const Person: React.FC<{ index: number }> = ({ index }) => {
+  const [isStammesMitglied, setIsStammesMitglied] = useState<
+    string | undefined
+  >(undefined);
+
+  return (
+    <>
+      <RadioGroup
+        value={isStammesMitglied}
+        onChange={(value) => setIsStammesMitglied(value)}
+      >
+        <Text as="h3" margin="16px 0 8px 0" textStyle="text-xs">
+          Stammesmitglied
+          <Text color="required" display="inline" marginLeft="4px">
+            *
+          </Text>
+        </Text>
+        <Stack spacing="8px">
+          <Radio name={"1988812163" + index} key="Ja" value="Ja">
+            Ja
+          </Radio>
+          <Radio name={"1988812163" + index} key="Nein" value="Nein">
+            Nein
+          </Radio>
+        </Stack>
+      </RadioGroup>
+      <Box display={isStammesMitglied === "Ja" ? "block" : "none"}>
+        <Text as="h3" margin="16px 0 8px 0" textStyle="text-xs">
+          Ich komme
+          <Text color="required" display="inline" marginLeft="4px">
+            *
+          </Text>
+        </Text>
+        <CheckboxGroup>
+          <Stack spacing="8px">
+            <Checkbox name={"295065933" + index} value="Freitag">
+              Freitag
+            </Checkbox>
+            <Checkbox name={"295065933" + index} value="Samstag">
+              Samstag
+            </Checkbox>
+            <Checkbox name={"295065933" + index} value="Sonntag">
+              Sonntag
+            </Checkbox>
+          </Stack>
+        </CheckboxGroup>
+      </Box>
+      <Box display={isStammesMitglied === "Nein" ? "block" : "none"}>
+        <Text as="h3" margin="16px 0 8px 0" textStyle="text-xs">
+          Ich komme
+          <Text color="required" display="inline" marginLeft="4px">
+            *
+          </Text>
+        </Text>
+        <CheckboxGroup>
+          <Stack spacing="8px">
+            <Checkbox name={"1084548225" + index} value="Samstag Vormittag">
+              Samstag Vormittag
+            </Checkbox>
+            <Checkbox name={"1084548225" + index} value="Samstag Nachmittag">
+              Samstag Nachmittag
+            </Checkbox>
+            <Checkbox name={"1084548225" + index} value="Samstag Abend">
+              Samstag Abend
+            </Checkbox>
+          </Stack>
+        </CheckboxGroup>
+      </Box>
+    </>
+  );
+};
