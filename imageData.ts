@@ -20,8 +20,8 @@ export const images: Image[] = [
   {
     src: "/90Bilder/3_90.jpg",
     caption: [
-      "1987 - Sturm sorgt für den Einsturz einer Jurte",
-      "Nach den letzten stürmischen Tagen passt dieses Bild ja perfekt. Auch in einem Sommerlager kann ein Sturm oder Gewitter über den Zeltplatz fegen. Dann heißt es, hoffen das nichts kaputt gegangen ist und alles wieder aufbauen.",
+      "1987 - ...7 Jahre später wieder Steiermark:",
+      "Nach den letzten stürmischen Tagen passt dieses Bild ja perfekt. Ein Sturm sorgt für den Einsturz einer Jurte. Auch in einem Sommerlager kann ein Sturm oder Gewitter über den Zeltplatz fegen. Dann heißt es: Hoffen, dass nichts kaputt gegangen ist und alles wieder aufbauen.",
     ],
   },
   {
