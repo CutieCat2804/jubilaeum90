@@ -61,6 +61,9 @@ export default function Home() {
         >
           <GridItem>
             <Text textStyle="text-s-bold">Freitag</Text>
+            <Text textStyle="text-2xs" fontWeight="bold">
+              20. Mai
+            </Text>
             <List textStyle="text-2xs">
               <ListItem> Nachmittags Aufbau</ListItem>
               <ListItem> Abends Gemütliche Lagerfeuerrunde</ListItem>
@@ -69,6 +72,9 @@ export default function Home() {
           <GridItem>
             <Text textStyle="text-s" fontWeight="bold">
               Samstag
+            </Text>
+            <Text textStyle="text-2xs" fontWeight="bold">
+              21. Mai
             </Text>
             <List textStyle="text-2xs">
               <ListItem> 10 Uhr Gottesdienst in Hlg. Dreikönige</ListItem>
@@ -81,6 +87,9 @@ export default function Home() {
           <GridItem>
             <Text textStyle="text-s" fontWeight="bold">
               Sonntag
+            </Text>
+            <Text textStyle="text-2xs" fontWeight="bold">
+              22. Mai
             </Text>
             <List textStyle="text-2xs">
               <ListItem> 90 gute Taten</ListItem>
@@ -127,5 +136,5 @@ export default function Home() {
 export async function getServerSideProps(context) {
   return {
     props: {}, // will be passed to the page component as props
-  }
+  };
 }
