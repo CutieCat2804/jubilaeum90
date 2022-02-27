@@ -55,7 +55,7 @@ export const images: Image[] = [
   {
     src: "/90Bilder/8_90.jpg",
     caption: [
-      "2001 - Pfadi-Sommerlager in Westernohe",
+      "2003 - Pfadi-Sommerlager in Westernohe",
       'Was für ein Bannermast! Stolz wie Oskar haben die Pfadis sogar eine Nacht unter diesem geschlafen und sind am Morgen alle erstaunt wachgeworden, da auf einmal die Banner weg waren. Geklaut während die Pfadis unter diesen schliefen. "Bannerklau" unter Pfadfinderstämmen eine alte Tradition auf größeren Zeltplätzen. Natürlich gab es am Ende die Banner wieder...',
     ],
   },

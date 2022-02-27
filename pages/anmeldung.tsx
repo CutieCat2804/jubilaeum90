@@ -17,7 +17,7 @@ import Button from "../components/Button";
 import ContentBox from "../components/ContentBox";
 import PageHead from "../components/PageHead";
 import Footer from "../components/Footer";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 
 const ignoredFieldIds = [
   "1128836742",
@@ -29,12 +29,8 @@ const ignoredFieldIds = [
   "1084548225",
   "295065933",
   "1988812163",
+  "336701212",
 ];
-
-const autocomplete = {
-  "1166974658": "tel",
-  "1045781291": "email",
-};
 
 export default function Anmeldung() {
   const methods = useGoogleForm({ form: form as any });
@@ -219,6 +215,16 @@ export default function Anmeldung() {
                   <Person index={index + 1} />
                 </Box>
               ))}
+              <>
+                <Text as="h2" margin="16px 0 8px 0" textStyle="text-xs-bold">
+                  Anmerkungen
+                </Text>
+                <Textarea
+                  placeholder="Anmerkungen"
+                  name="336701212"
+                  resize="none"
+                />
+              </>
               <Button display="flex" label="Abschicken" type="submit" />
             </form>
           </GoogleFormProvider>

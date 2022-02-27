@@ -2,17 +2,12 @@ import {
   AspectRatio,
   Box,
   Image,
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalHeader,
-  ModalOverlay,
   OtherProps,
   Text,
   useDisclosure,
 } from "@chakra-ui/react";
 import { useCountdown } from "../hooks/useCountdown";
+import Modal from "./Modal";
 
 interface GalleryImageProps {
   src: string;
@@ -60,23 +55,7 @@ const GalleryImage: React.FC<GalleryImageProps> = (props) => {
           </Text>
         ))}
       </Box>
-      <Modal isOpen={isOpen} onClose={onClose} size="4xl">
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>
-            <Text textStyle="text-s">{day}</Text>
-          </ModalHeader>
-          <ModalCloseButton
-            color="primary"
-            fontSize="16px"
-            top="1rem"
-            right="1rem"
-          />
-          <ModalBody padding="20px">
-            <Box margin="8px auto 0">{Img}</Box>
-          </ModalBody>
-        </ModalContent>
-      </Modal>
+      <Modal isOpen={isOpen} onClose={onClose} src={src} alt={alt} />
     </>
   );
 };

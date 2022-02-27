@@ -1,7 +1,7 @@
 {
   "fvv": 1,
   "pageHistory": 0,
-  "fbzx": "4461132241244532517",
+  "fbzx": "7554393867709488797",
   "action": "e/1FAIpQLSfJNop9Pd8p4ZIcQ6XgvxfpcaZMuCBDKMQlh9A7Cpm3_uO1gQ",
   "fields": [
     {
@@ -53,10 +53,17 @@
         { "label": "Samstag Abend", "custom": false }
       ],
       "required": false
+    },
+    {
+      "label": "Anmerkungen",
+      "type": "LONG_ANSWER",
+      "id": "336701212",
+      "required": false
     }
   ],
   "fieldsOrder": {
     "295065933": 4,
+    "336701212": 6,
     "1045781291": 1,
     "1084548225": 5,
     "1166974658": 2,

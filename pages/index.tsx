@@ -98,6 +98,11 @@ export default function Home() {
           </GridItem>
         </Grid>
         <Button label="Zur Anmeldung" url="/anmeldung" />
+        <Text textStyle="text-s" marginTop="24px">
+          Bei Fragen, Geschichten, Anekdoten und Grußbotschaften könnt ihr uns
+          gerne eine Mail senden an{" "}
+          <a href="mailto:jubilaeum@90-malteser.de">jubilaeum@90-malteser.de</a>
+        </Text>
         <Box as="h1" textStyle="heading-l-uppercase" marginTop="40px">
           Jubiläums Countdown
           <Text fontSize="124px" lineHeight="75%" marginTop="24px">
