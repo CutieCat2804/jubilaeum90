@@ -2,18 +2,18 @@ import {
   Box,
   Text,
   Image,
-  Flex,
   Link,
   Grid,
   GridItem,
   List,
-  ListIcon,
   ListItem,
+  useDisclosure,
 } from "@chakra-ui/react";
 import Button from "../components/Button";
 import ContentBox from "../components/ContentBox";
 import Footer from "../components/Footer";
 import GalleryImage from "../components/GalleryImage";
+import Modal from "../components/Modal";
 import PageHead from "../components/PageHead";
 import { useCountdown } from "../hooks/useCountdown";
 import { images } from "../imageData";
@@ -21,6 +21,8 @@ import { images } from "../imageData";
 export default function Home() {
   let { imageCount, countdown } = useCountdown();
   const day = `Tag ${imageCount}`;
+
+  const { isOpen, onClose, onOpen } = useDisclosure();
 
   return (
     <div>
@@ -81,6 +83,22 @@ export default function Home() {
               <ListItem> 11 Uhr Festakt</ListItem>
               <ListItem>
                 Anschließend Imbiss, Kaffee, Kuchen und Workshops
+              </ListItem>
+              <ListItem>
+                <Link
+                  onClick={onOpen}
+                  textDecoration="underline"
+                  textStyle="text-2xs"
+                  fontWeight="bold"
+                >
+                  Details
+                </Link>
+                <Modal
+                  isOpen={isOpen}
+                  onClose={onClose}
+                  src=""
+                  alt="Programm"
+                />
               </ListItem>
             </List>
           </GridItem>

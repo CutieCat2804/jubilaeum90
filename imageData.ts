@@ -73,30 +73,49 @@ export const images: Image[] = [
       "Na, wer von Euch hat schon mit dem Ball gespielt? Es war für die Kinder immer ein Highlight, wenn die Leiter*innen sich die Mühe gemacht haben, diesen Ball aufzupumpen. \nWäre ja eigentlich nochmal was für die nächste Wölflings- oder Juffistunde.",
     ],
   },
-  // {
-  //   src: "/90Bilder/11_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/12_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/13_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/14_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/15_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/16_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/11_90.jpg",
+    caption: [
+      "1972 - NGZ Artikel",
+      "  Was für eine coole Aktion vor 50 Jahren… Wäre das nicht nochmal eine Aktion für die nächste Zeit? Jede*r hat doch bestimmt noch gute Kleidung im Schrank, die er*sie doch eigentlich nicht mehr nutzt.",
+    ],
+  },
+  {
+    src: "/90Bilder/12_90.jpg",
+    caption: [
+      "2007 - Stammeslager in Wiltz (Luxemburg)",
+      " Motto des Lagers, nicht schwer zu erkennen: Harry Potter. In der Rolle als Harry Potter unsere ehemalige Stammesvorsitzende Katrin und der fleißige Helfer Dobby, bzw. Kirsten. Ein schönes Motto für ein Lager. Es wurde Quidditch gespielt, auf Besen geflogen, der Tagesprophet herausgebracht und das trimagische Turnier erfolgreich absolviert.",
+    ],
+  },
+  {
+    src: "/90Bilder/13_90.jpg",
+    caption: [
+      "1978 - Georgstag",
+      "Der Georgstag zu Ehren des Heiligen Georg, den Namenspatron der DPSG. Gute Tradition im Bezirk Rhein-Erft, dem der Stamm Malteser angehört, ist es an diesem Tage mit allen Stämmen aus dem Bezirk zusammen zu kommen. Pfadfinder*innen aus Weckhoven, Delrath, Grevenbroich Süd, Gustorf und Neuss kommen zusammen und verbringen einen gemeinsamen Tag. In einem spielerischen Wettkampf duellieren sich die Stämme. Ein Hihglight im Pfadfinderjahr für Jung und Alt.",
+    ],
+  },
+  {
+    src: "/90Bilder/14_90.jpg",
+    caption: [
+      "1947 - Letzte Infos Sommerlager",
+      'Auch damals in den Anfangszeiten des Stammes gab es kurz vor dem anstehenden Sommerlager nochmal die wichtigen "Letzten Infos".',
+      "Sehr schön vor allem Punkt 3:",
+      '"Was im Übrigen jeder zum Lager mitbringen muss, braucht Pfadfindern nicht gesagt werden."',
+    ],
+  },
+  {
+    src: "/90Bilder/15_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/16_90.jpg",
+    caption: [
+      "2011 - Stammeslager in Dänemark",
+      "Auf einem internationalen Pfadfinderzeltplatz brauchen Wös schon mal Hilfe bei der Kommunikation mit anderen Pfadfinder*innen. Hier die Übersetzung der Wö-Lautschrift:",
+      '"I would like to swap my scarf with yours"',
+      '"Ich möchte gerne mein Halstuch gegen deins tauschen"',
+    ],
+  },
   // {
   //   src: "/90Bilder/17_90.jpg",
   //   caption: [],

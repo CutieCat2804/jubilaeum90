@@ -6,7 +6,6 @@ import {
   Text,
   useDisclosure,
 } from "@chakra-ui/react";
-import { useCountdown } from "../hooks/useCountdown";
 import Modal from "./Modal";
 
 interface GalleryImageProps {
