@@ -93,12 +93,12 @@ export default function Home() {
                 >
                   Details
                 </Link>
-                <Modal
+                {/* <Modal
                   isOpen={isOpen}
                   onClose={onClose}
                   src=""
                   alt="Programm"
-                />
+                /> */}
               </ListItem>
             </List>
           </GridItem>
