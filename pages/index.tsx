@@ -85,14 +85,14 @@ export default function Home() {
                 Anschließend Imbiss, Kaffee, Kuchen und Workshops
               </ListItem>
               <ListItem>
-                <Link
+                {/* <Link
                   onClick={onOpen}
                   textDecoration="underline"
                   textStyle="text-2xs"
                   fontWeight="bold"
                 >
                   Details
-                </Link>
+                </Link> */}
                 {/* <Modal
                   isOpen={isOpen}
                   onClose={onClose}

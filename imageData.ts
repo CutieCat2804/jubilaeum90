@@ -99,13 +99,17 @@ export const images: Image[] = [
     caption: [
       "1947 - Letzte Infos Sommerlager",
       'Auch damals in den Anfangszeiten des Stammes gab es kurz vor dem anstehenden Sommerlager nochmal die wichtigen "Letzten Infos".',
-      "Sehr schön vor allem Punkt 3:",
+      "Sehr schön vor allem Punkt 4:",
       '"Was im Übrigen jeder zum Lager mitbringen muss, braucht Pfadfindern nicht gesagt werden."',
     ],
   },
   {
     src: "/90Bilder/15_90.jpg",
-    caption: [],
+    caption: [
+      "2007 - Matratzenparty Wös",
+      "Selten wird Mauli heutzutage in Pfadfinderkreisen mit seinem bürgerlichen Namen Lucien angesprochen, aber auf diesem Foto hatte er seinen Spitznamen noch nicht. Diesen bekam er erst als Juffi.",
+      "An dem Abend machte Lucien noch sein Versprechen. Special Guest auf der Matratzenparty war Wölfi, das Maskottchen der Wölflingsstufe.",
+    ],
   },
   {
     src: "/90Bilder/16_90.jpg",
@@ -116,42 +120,65 @@ export const images: Image[] = [
       '"Ich möchte gerne mein Halstuch gegen deins tauschen"',
     ],
   },
-  // {
-  //   src: "/90Bilder/17_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/18_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/19_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/20_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/21_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/22_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/23_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/24_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/25_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/17_90.jpg",
+    caption: [
+      "1984 - Hike in Clervaux (Luxemburg)",
+      "Der Stamm war schon immer hoch modern unterwegs, wie dieses Bild zeigt. Bei einer Pause während eines Hikes (Wanderungen, meist mehrtägig) wurde hier via Walkie-Talkie mit der anderen Gruppe kommuniziert.",
+    ],
+  },
+  {
+    src: "/90Bilder/18_90.jpg",
+    caption: [
+      "2012 - Sommerlager der Wös in Ingoltstadt",
+      'In den 14 Tagen eines Lagers ist immer ganz viel los. Das Lager stand unter dem Motto "Piraten". Der Plan dient den Kids immer als Orientierung. Direkt daneben hängt meistens der Spül- bzw. Küchendienst-Plan ;-).',
+    ],
+  },
+  {
+    src: "/90Bilder/19_90.jpg",
+    caption: [
+      "1948 - Ankunft im Lager",
+      '"Sitzplätze gibt es heute nicht" hieß es wohl bei der Abfahrt in Neuss. Damals war die Anfahrt in ein Lager noch eine andere als heute: Kein Gemütlicher Platz im Bus oder in der Bahn, sondern alle auf die Laderampe und den Anhänger. Bestimmt war es lustig, laut und abenteuerlich so zu reisen.',
+    ],
+  },
+  {
+    src: "/90Bilder/20_90.jpg",
+    caption: [
+      "2007 - Versprechensfeier",
+      "Immer ein ganz besonderer Moment in einem Pfadfinderleben: Das Versprechen",
+      "Alle kommen zur Ruhe, der Ort wird feierlich geschmückt, die Leiter*innen haben was vorbereitet und alle hören der- oder demjenigen zu, der sein Versprechen ablegt.",
+      "Das Wö-Versprechen ist zudem ein ganz besonderes. Es ist meist das erste in einem Pfadfinderleben und mit diesem Versprechen gehört man dann voll und ganz zum DPSG Stamm Malteser Neuss und somit zu all den Pfadfindern auf der ganzen Welt!",
+    ],
+  },
+  {
+    src: "/90Bilder/21_90.jpg",
+    caption: [
+      "2006 - Sommerlager in Salzbergen",
+      'Roverin, Wö-Leiterin und heutiges Geburtstagskind Thea noch vor ihrer Wölflingszeit im Sommerlager in Salzbergen mit dem klaren Bekenntnis auf dem T-Shirt: "Ich bin Pfadfinder in Neuss".',
+      " ",
+      "HAPPY BIRTHDAY Thea! ",
+    ],
+  },
+  {
+    src: "/90Bilder/22_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/23_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/24_90.jpg",
+    caption: [
+      "2007 -  Stammeslogo",
+      " Pünktlich zum 75-jährigen Jubiläum im Jahr 2007 hat der Stamm sein eigenes erhalten.",
+      "Oben links die DPSG-Lilie, oben rechts das Wappen unserer Heimstadt Neuss, unten links das Malteserkreuz für unseren Stammesnamen und unten rechts die drei Kronen für unsere Heimatpfarre Hl. Dreikönige und das Dreiköningenviertel, wo der Stamm seinen Sitz hat.",
+    ],
+  },
+  {
+    src: "/90Bilder/25_90.jpg",
+    caption: [],
+  },
   // {
   //   src: "/90Bilder/26_90.jpg",
   //   caption: [],
