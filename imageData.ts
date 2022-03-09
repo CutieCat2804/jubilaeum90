@@ -130,7 +130,7 @@ export const images: Image[] = [
   {
     src: "/90Bilder/18_90.JPG",
     caption: [
-      "2012 - Sommerlager der Wös in Ingoltstadt",
+      "2012 - Sommerlager der Wös in Ingolstadt",
       'In den 14 Tagen eines Lagers ist immer ganz viel los. Das Lager stand unter dem Motto "Piraten". Der Plan dient den Kids immer als Orientierung. Direkt daneben hängt meistens der Spül- bzw. Küchendienst-Plan ;-).',
     ],
   },
