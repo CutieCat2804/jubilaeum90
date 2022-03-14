@@ -161,11 +161,18 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/22_90.jpg",
-    caption: [],
+    caption: [
+      "1998 - Stammeslager in Wiesmoor",
+      "Gute alte Tradition im Lager ist es Lagerbauten zu bauen. Sei es ein Bannermast, ein Tor, eine Seilbahn oder andere kreative Ideen. Am Ende ist jede*r immer stolz auf das Werk aus Holz und Seil. Hier die Roverrunde von 1998 die ein Tor gebaut hat und dieses final hochzieht.",
+    ],
   },
   {
     src: "/90Bilder/23_90.jpg",
-    caption: [],
+    caption: [
+      "1989 - Christoph E. als Rover",
+      "Und wieder hat einer der Familie Esser Geburtstag, diesmal Christoph: Happy Birthday!",
+      "Als ehemaliger Stammesvorstand, Bezirksvorstand, Roverleiter und Wölflingsleiter sind hier nur ein paar Tätigkeiten während seiner aktiven Pfadfinderlaufbahn aufgelistet.",
+    ],
   },
   {
     src: "/90Bilder/24_90.jpg",
@@ -177,68 +184,115 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/25_90.jpg",
+    caption: [
+      "1982 - Einladung zur Truppversammlung",
+      'Die letzte Truppversammlung ist schon was her... diese gab es damals häufiger in der Pfadfinder oder Jungpfadfinderstufe, wenn es so viele Kinder gab, dass man mehrere Trupps zusammengestellt hat. Diese hatten auch immer selbstausgedachte Namen, wie z.B. "Kugelblitz".',
+      " ",
+      "Ja, es gab auch mal einen DPSG-Stamm in Neuss-Grefrath.",
+      'Getroffen haben sich die Grefrather Pfadis in der "Alten Penne", welche jetzt eine Kindertagesstätte ist.',
+      'Name des Stammes war "Grafen Rode". Nach Auflösung des Stammes sind viele Pfadfinder*innen von Grefrath nach Neuss gewechselt',
+    ],
+  },
+  {
+    src: "/90Bilder/26_90.jpg",
+    caption: [
+      "1978 + 1979 - Aufnäher Bezirksprojekt",
+      "Im Laufe einer Pfadfinder*in-Laufbahn kommen ein Haufen von den verschiedensten Aufnähern zusammen, so wie diese beiden aus den 70er-Jahren aus Bezirksaktionen. Aber auch für Sommerlager, Jahresaktionen, Projekte und sonstige Aktionen gibt es Aufnäher. Meistens finden man diese in großer oder kleiner Anzahl auf den Kluften, Schwedenstühlen oder Campfiredecken. Mit jedem Aufnäher verbindet man besondere Erinnerungen. Also schaut doch mal wieder auf Eure alten Aufnäher und schwelgt in Erinnerungen :-)",
+      "Während unserer Foto-Challenge werden wir auch noch den ein oder anderen Aufnäher zeigen.",
+    ],
+  },
+  {
+    src: "/90Bilder/27_90.jpg",
+    caption: [
+      "2018 - Erste Hilfe Schulung",
+      "Die Ausbildung unserer Leiter*innen ist uns besonders wichtig. Viele verschiedene Module gehören zur Leiterausbildung und werden auf Diözesan-, Bezirks- oder wie auf dem Bild zusehen auf Stammes-Ebene angeboten, bis am Ende der Woodbadge-Kurs steht.",
+      "Bei unserem Erste Hilfe Kurs im Pfadiheim wird Holger professionell von Moritz mit einem Kopfverband verarztet. Der Spaß darf natürlich bei solchen Veranstaltungen nicht fehlen! ;-)",
+    ],
+  },
+  {
+    src: "/90Bilder/28_90.jpg",
+    caption: [
+      "2011 - Stammeslager in Dänemark",
+      "Na, wer erkennt die beiden? ;-)",
+      "Uli und Zoe natürlich… zusammen von den Wös bis in die Leiterrunde. Viele von diesen Pfadi-Freundschaften beginnen im frühen Kindheitsalter und bleiben meist ein Leben lang. Einmal Pfadfinder*in, immer Pfadfinder*in!",
+    ],
+  },
+  {
+    src: "/90Bilder/29_90.jpg",
+    caption: [
+      "1979 - Sommerlager in Heist-op-den-Berg (Belgien)",
+      "Neben viel Action im Lager, muss es auch immer wieder ruhige und kreative Momente geben, wie z.B. das Schreiben von Briefen oder Postkarten nach Hause oder das Malen.",
+      " ",
+      "Was war Euer Highlight im Lager?",
+      "Was ist euer schönster Platz im Lager?",
+      "Was hat Euch am meisten Spaß gemacht?",
+      "Könnten die Fragen hinter diesen Kunstwerken gewesen sein.",
+    ],
+  },
+  {
+    src: "/90Bilder/30_90.jpg",
+    caption: [
+      "2017 - Sommerlager",
+      "Ein aufregender Moment für jeden Wölfling im Sommerlager: Das Ablegen des Messer-Führerscheins",
+      " ",
+      "Beim Messerführerschein werden den Wölflinge bevor es an Schnitzen von Figuren, Stockbrotstöcken und co geht wichtige Dinge im Umgang mit einem Messer beigebracht. Am Ende erfolgt eine kleine Prüfung. WIr können mit Stolz behaupten, dass bis jeder Wölfling die Prüfung bestanden hat. :-)",
+    ],
+  },
+  {
+    src: "/90Bilder/31_90.jpg",
+    caption: [
+      "2011 - Bezirkslager in Rüthen",
+      '"Leiter*in sein" heißt auch in andere Rollen schlüpfen und das ein oder andere Kostüm anzuziehen. So wie hier Matthias und Holger als Mario und Luigi im Bezirkslager. Das Lager stand unter dem Motto "Super Mario und die Spur des Säbels". Zwei Themen in einem Motto vereint "Super Mario" und "Orient".',
+    ],
+  },
+  {
+    src: "/90Bilder/32_90.jpg",
     caption: [],
   },
-  // {
-  //   src: "/90Bilder/26_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/27_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/28_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/29_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/30_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/31_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/32_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/33_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/34_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/35_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/36_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/37_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/38_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/39_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/40_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/33_90.jpg",
+    caption: [
+      "1982 - Jubiläum 50 Jahre",
+      "Auch zum 50. Jubiläum vom Stamm Malteser gab es damals auch ein buntes Programm rund um den Kirchturm von Dreikönige. Damals hat man das Wochenende vom Georgstag genutzt.",
+    ],
+  },
+  {
+    src: "/90Bilder/34_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/35_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/36_90.jpg",
+    caption: [
+      "1995 - Wölflings-Versprechensfeier",
+      '"Der kleine Peter" ist nicht nur hier auf dem Bild zu erkennen, sondern war auch der Titel einer Geschichte die Peter bei seinem Leiterversprechen selbst geschrieben hatte, wo er auf viele schöne Momente seiner Pfadfinderzeit zurückblickte.',
+    ],
+  },
+  {
+    src: "/90Bilder/37_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/38_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/39_90.jpg",
+    caption: [],
+  },
+  {
+    src: "/90Bilder/40_90.jpg",
+    caption: [
+      "2017 - Ein Mittwoch im Dezember",
+      'Heute ist Mittwoch, also "HEIMSPIEL"!',
+      'Im Stammeslager 2017 wurde das sogenannte "Heimspiel" gegründet. Seitdem treffen sich jeden Mittwoch die Heimspieler*innen am Pfadfinderheim und kümmern sich um das Zeltmaterial, die Werkstatt, die Grünpflege und vieles mehr.',
+      "Nach getaner Arbeit wird ein Abend auf dem Neusser Weihanchtsmarkt ausklingen gelassen.",
+      'DANKE für Eure Arbeit an den "harten Kern" des Heimspiels Sandra, JayJay und Markus.',
+    ],
+  },
   // {
   //   src: "/90Bilder/41_90.jpg",
   //   caption: [],
