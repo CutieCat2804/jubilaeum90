@@ -85,20 +85,20 @@ export default function Home() {
                 Anschließend Imbiss, Kaffee, Kuchen und Workshops
               </ListItem>
               <ListItem>
-                {/* <Link
+                <Link
                   onClick={onOpen}
                   textDecoration="underline"
                   textStyle="text-2xs"
                   fontWeight="bold"
                 >
                   Details
-                </Link> */}
-                {/* <Modal
+                </Link>
+                <Modal
                   isOpen={isOpen}
                   onClose={onClose}
-                  src=""
+                  src="/Programm.png"
                   alt="Programm"
-                /> */}
+                />
               </ListItem>
             </List>
           </GridItem>
