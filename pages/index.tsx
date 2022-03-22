@@ -79,7 +79,7 @@ export default function Home() {
               21. Mai
             </Text>
             <List textStyle="text-2xs">
-              <ListItem> 10 Uhr Gottesdienst in Hlg. Dreikönige</ListItem>
+              <ListItem> 10 Uhr Gottesdienst in Hl. Dreikönige</ListItem>
               <ListItem> 11 Uhr Festakt</ListItem>
               <ListItem>
                 Anschließend Imbiss, Kaffee, Kuchen und Workshops

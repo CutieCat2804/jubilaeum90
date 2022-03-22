@@ -247,7 +247,11 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/32_90.jpg",
-    caption: [],
+    caption: [
+      "1992 - Schwungtuchspiele",
+      "Das Schwungtuch war damals schon beliebt und ist es heute noch. Gerade für Wölfinge und Jungpfadfinder*innen ein perfektes Spielzeug , um die Gruppenstunde aufzufrischen.",
+      "Spiele, wie Katz und Maus oder einfach mit viel Schwung ein Zelt errichten, sorgt immer für viel Spaß.",
+    ],
   },
   {
     src: "/90Bilder/33_90.jpg",
@@ -258,11 +262,17 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/34_90.jpg",
-    caption: [],
+    caption: [
+      "1933 - Ort unbekannt",
+      "Was damals das Motto des Lagers war oder welche Rolle der Schild hatte, wissen wir leider nicht. Nichtsdestotrotz ein super Foto und ein super und vor allem stabiler Lagerturm, den die Lagerteilnehmer*innen aus den Anfangsjahren des Stammes hier mit Stolz zeigen.",
+    ],
   },
   {
     src: "/90Bilder/35_90.jpg",
-    caption: [],
+    caption: [
+      "2019 - 72 Studnen Aktion",
+      '"Das Leben ist bunt!" Genauso bunt wie unsere 72 Stunden Aktion mit der Augustinus Behindertenhilfe im Jahr 2019. 72 witzige und schöne Stunden wurden gemeinsam unter dem Motto "Perspektivwechsel" verbracht. Die freundschaftliche Verbindung zur Augustinus Behindertenhilfe ist seitdem gefestigt und wird sobald möglich mit der gemeinsamen Teilnahme am Kappessonntagszug fortgeführt - wir freuen uns darauf!',
+    ],
   },
   {
     src: "/90Bilder/36_90.jpg",
