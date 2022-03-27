@@ -284,7 +284,7 @@ export const images: Image[] = [
   {
     src: "/90Bilder/37_90.jpg",
     caption: [
-      "Pfadfinder*innen gegen Fremdenfeindlichkeit",
+      "1994 - Pfadfinder*innen gegen Fremdenfeindlichkeit",
       '"Pfadfinder sein" heißt auch Stellung beziehen zu Dingen in unserer Welt, die nicht gut sind.',
       'So wie hier die Leiterrunde aus dem Jahr XXXX mit einem bunten Plakat vor der Dreikönigenkirche mit der Aufschrift "Pfadfinderinnen und Pfadfinder gegen Fremdenhaß und Gewalt".',
       "Selbst damals wurde schon gegendert ;-)",
