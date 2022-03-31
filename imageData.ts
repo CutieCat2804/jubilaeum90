@@ -299,7 +299,13 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/39_90.jpg",
-    caption: [],
+    caption: [
+      "2017 - Ein Mittwoch im Dezember",
+      'Heute ist Mittwoch, also "HEIMSPIEL"!',
+      'Im Stammeslager 2017 wurde das sogenannte "Heimspiel" gegründet. Seitdem treffen sich jeden Mittwoch die Heimspieler*innen am Pfadfinderheim und kümmern sich um das Zeltmaterial, die Werkstatt, die Grünpflege und vieles mehr.',
+      "Nach getaner Arbeit wird ein Abend auf dem Neusser Weihanchtsmarkt ausklingen gelassen.",
+      'DANKE für Eure Arbeit an den "harten Kern" des Heimspiels Sandra, JayJay und Markus.',
+    ],
   },
   {
     src: "/90Bilder/40_90.jpg",
