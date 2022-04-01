@@ -317,18 +317,15 @@ export const images: Image[] = [
   {
     src: "/90Bilder/41_90.jpg",
     caption: [
-      "1989 - Wölflingsversprechen",
-      'Mal wieder was aus der Kategorie "alle haben mal klein angefangen". Auch unser ehemaliger Stammesvorstand, Wö-, Juffi-, und Rover-Leiter Andreas, hier bei seinem Wölflingsversprechen. Wer genau hinschaut sieht auch noch ein älteres Wölflingstufen-Abzeichen. Mittlerweile tragen die Wölflinge eine orange Lilie.',
-    ],
-  },
-  {
-    src: "/90Bilder/42_90.jpg",
-    caption: [
       "2018 - Besuch von irischen Pfadfindern",
       "Internationale Pfadfinderbegegnungen sind immer ein Highlight. Der Stamm hatte schon viele Begegnungen in Lager oder Aktion aus Polen, Bolivien, Südafrika, Großbritanien oder den Niederlande.",
       "Unsere Roverrunde waren im Jahr 2018 Gastgeber für einen irischen Pfadfindertrupp, der in NRW sein Sommerlager verbrachte.",
       "Dieses Jahr wird es hoffentlich zu einem Wiedersehen kommen, denn unsere Roverrunde macht sich in den Sommerferien auf nach Irland.",
     ],
+  },
+  {
+    src: "/90Bilder/42_90.jpg",
+    caption: [],
   },
   // {
   //   src: "/90Bilder/43_90.jpg",
