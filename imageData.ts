@@ -325,48 +325,95 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/42_90.jpg",
-    caption: [],
+    caption: [
+      "1982 - Lagerolympiade",
+      "Ein echter Klassiker in einem Sommerlager: Die Lagerolaympiade!",
+      "In vielen verschiedenen kleineren Aufgaben duellieren sich gemixte Teams aus Jung und Alt. Mal gewinnt der beste Teamgeist, Geschicklichkeit oder das Glück.",
+    ],
   },
-  // {
-  //   src: "/90Bilder/43_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/44_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/45_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/46_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/47_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/48_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/49_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/50_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/51_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/52_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/43_90.jpg",
+    caption: [
+      "2007 - 75 Jahre Stamm Malteser",
+      "Auch das 75jährige Jubiläum wurde ebenfalls ordentlich rund um den Kirchturm von Dreikönige gefeiert. Im gefüllten alten Pfarrsaal gab es einen Festakt und der Tag klang bei Sonnenschein, netten Gesprächen und Rückblicken in die Stammesgeschichte aus.",
+      "Das Logo ist mit allen vier Stufenfarben schön bunt gewesen.",
+    ],
+  },
+  {
+    src: "/90Bilder/44_90.jpg",
+    caption: [
+      "2019 - Stammesversammlung",
+      "Einmal im Jahr heißt es für alle Stammesmitglieder: Stammesversammlung.",
+      'Auf der Versammlung werden Vorstandsämter gewählt und das Jahr Revue passieren gelassen. Aber ab und an schafft es auch der ein oder andere Antrag auf die Tagesordnung. Von "Projektreise Südafrika", "Beleuchtung Hof am Pfadfinderheim" über "Winterlager mit allen Stufen" wird über die Anträge diskutiert und abgestimmt. Kindermitbestimmung wird dabei ganz groß geschrieben: In Summe haben die Vertreter*innen der Stufen mehr Stimmen als die Erwachsenen.',
+    ],
+  },
+  {
+    src: "/90Bilder/45_90.jpg",
+    caption: [
+      '1933 - "Führerausweis"',
+      "Andere Zeiten, andere Bezeichnungen: Ein richtiger Archivfund.",
+      "Damals war noch nicht die Rede von Leitenden oder Leiter*innen. Franz Krey war einer der ersten Leiter im Stamm Malteser. Anfang der 30er Jahre war die Teilnahme bei den Pfadfindern nur den Jungen und Männer möglich. 1971 wurde dies geändert und die Teilnahme von Mädchen und Frauen ist seitdem selbstverständlich.",
+    ],
+  },
+  {
+    src: "/90Bilder/46_90.jpg",
+    caption: [
+      "1985 - Stammeslager Waldhambach",
+      'Der erste Tag im Lager ist immer "Aufbautag". Zelte, Lagerbauten, Küche und die persönlichen Schlafstätten wollen errichtet und währendessen noch gekocht und Feuerholz gesucht werden. An diesem Tag herrscht immer ein gewisses Chaos und alle packen mit an - von Wös bis zu den Rovern - zu tun gibt es schließlich genug.',
+      "Am Ende freuen sich alle dann nach getaner Arbeit auf die erste gemeinsame abendliche Lagerfeuerrunde. :-)",
+    ],
+  },
+  {
+    src: "/90Bilder/47_90.jpg",
+    caption: [
+      "2013 - 72 Stunden Aktion",
+      "Na, erkannt? Unser Stammesvorsitzender Moritz posiert hier für die Kamera.",
+      "Heute ist sein Geburtstag und der perfekte Tag dieses Bild nochmal nachzustellen? ;-)",
+      "Teil der 72 Stunden Aktion im Jahr 2013 waren unter anderem die Verschönerung des Spielplatzes im Stadtgarten und der Bau eines Demenzpfades.",
+      "Happy Birthday Moritz!",
+    ],
+  },
+  {
+    src: "/90Bilder/48_90.jpg",
+    caption: [
+      "2001 - Pfadi-Sommerlager in Westernohe",
+      "Und das nächste Geburtstagskind… Ja, auch 2001 gab es schon die ersten Selfies. Unser Roverleiter Holger ganz lässig während einer 3 Tages-Wanderung mit dem Pfadi-Halstuch als Kopftuch, bzw. Sonnenschutz und mal keine Cap ;-).",
+      "Happy Birthday Holger!",
+    ],
+  },
+  {
+    src: "/90Bilder/49_90.jpg",
+    caption: [
+      "Anfang der 90er - Umbau Pfadfinderheim",
+      "Auch das Pfadfinderheim vom Stamm Malteser auf der Bergheimerstraße hat sich in den 90 Jahren immer mal wieder verändert. Sei es der Wegfall des angrenzenden Gartens, die Anschaffung eines Wohnwagens oder der Umbau und Abriss des alten Kindergartens.",
+      "Zudem fallen immer mal wieder kleine Baustellen an, die wir meistens selbst oder mit Hilfe von ehemaligen Leiter*innen behoben bekommen.",
+      "Zudem stehen für die Zukunft noch weitere Umbauprojekte an wie ein neuer Materialschrank für den Truppraum oder den Bau einer Teilberdachung des Eingangsbereiches.",
+    ],
+  },
+  {
+    src: "/90Bilder/50_90.jpg",
+    caption: [
+      "2018 - Rover-Lager in Frankreich",
+      "Eine der schönsten Sehenswürdigkeiten der Welt und im Hintergrund der Pariser Eiffelturm ;-)",
+      "Alle Rover*innen auf dem Bild sind noch Mitglied im Stamm oder schon aktiv in der Leiterrunde tätig. Der Nachwuchs aus den eigenen Reihen ist immer sehr wichtig und hält den Stamm am Leben.",
+    ],
+  },
+  {
+    src: "/90Bilder/51_90.jpg",
+    caption: [
+      "1995 - Lagerhochzeit in Wiltz",
+      'Immer ein witziger Moment in einem Lager, wenn es zu einer nicht ganz ernst gemeinten "Lagerhochzeit" kommt.',
+      "Es werden Ringe gebastelt, Braut und Bräutigam in Schale geschmissen, es braucht einen Pfarrer und und und...",
+    ],
+  },
+  {
+    src: "/90Bilder/52_90.jpg",
+    caption: [
+      "2007 - Stammslager Wiltz",
+      "Kaum wiederzuerkennen mit den langen Haaren: unser Juffi-Leiter Jens in Action.",
+      "Für die Wös ging es an dem Tag des Lager auf die vom Lagerplatz in Luxemburg organisierte Party. Wie ihr sehen könnt, kam der Spaß nicht zu kurz und es wurde viel getanzt.",
+    ],
+  },
   // {
   //   src: "/90Bilder/53_90.jpg",
   //   caption: [],
