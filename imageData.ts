@@ -414,46 +414,83 @@ export const images: Image[] = [
       "Für die Wös ging es an dem Tag des Lager auf die vom Lagerplatz in Luxemburg organisierte Party. Wie ihr sehen könnt, kam der Spaß nicht zu kurz und es wurde viel getanzt.",
     ],
   },
-  // {
-  //   src: "/90Bilder/53_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/54_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/55_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/56_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/57_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/58_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/59_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/60_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/61_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/62_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/53_90.jpg",
+    caption: [
+      "1980 - Steiermark",
+      "Wie ihr merkt, gibt es Sommerlager-Plätze, wo der Stamm Malteser immer mal wieder gerne hingefahren ist. Beste Beispiel: die Steiermark in Österreich.",
+      "Zelten mitten in den Bergen, bzw. direkt am Hang, macht das Lagerleben besonders und bescherrt täglich einen wunderschönen Ausblick aus dem Zelt.",
+    ],
+  },
+  {
+    src: "/90Bilder/54_90.jpg",
+    caption: [
+      "80er und 90er- Wö-Leiterinnen Ursula²",
+      "Ein Wö-Leiterinnen-Dreamteam mit dem gleichen Vornamen :-)",
+      'Ursula Esser und Ursula "Ulli" Habermann haben lange Zeit die Wölflingsstufe beim Stamm Malteser geleitet.',
+      "Unzählige Jungs und Mädchen haben unter ihnen ihre Wölflingszeit verbracht.",
+    ],
+  },
+  {
+    src: "/90Bilder/55_90.jpg",
+    caption: [
+      "2001 - Pfadi-Sommerlager in Westernohe",
+      "Nach dreitägiger Wanderungen ohne die Leiter*innen wurde der damalige Pfadi-Trupp von seinen Leiter*innen am Platz mit einem Pool überrascht. Die Freude bei den Pfadis war riesig. Gemeinsam hat man im Pool auf einen erfolgreichen Hike angestoßen.",
+    ],
+  },
+  {
+    src: "/90Bilder/56_90.jpg",
+    caption: [
+      "2018 - Baumpatenschaft",
+      'Ein echter "Rheinischer Bohnapfel" wurde von unserem Stamm im Bundeszentrum Westernohe im Rahmen einer großen Pflanzaktion von Obstbäumen gepflanzt.',
+      'Seit 2018 waren bereits einige Leiter*innen in Westernohe und haben sich unseren Baum angesehen und schicken fleißig Fotos, sodass alle am Wachstum des "Stammes-Baumes" teilhaben können.',
+    ],
+  },
+  {
+    src: "/90Bilder/57_90.jpg",
+    caption: [
+      "1982 - Pfadfinder im Karneval",
+      "Pfadfinder und Karneval, v.a. in unserer Heimatpfarre Dreikönige, sind in Neuss eng miteinander verbunden. Sei es wie auf dem Foto einstudierte Sketche oder Aufführungen für Sitzungen oder das ehrenamtliche Helfen und Organisieren von Karnevalssitzungen.",
+      "Morgen seht ihr dann noch ein anderes Bild mit Karneval... ;-)",
+    ],
+  },
+  {
+    src: "/90Bilder/58_90.jpg",
+    caption: [
+      "2017 - Kappessonntagszug",
+      '…oder wie hier die Teilnahme am Kappessonntagszug zum Thema "Super Mario Kart" in Neuss.',
+      "Die Leiterrunde hat sich über Wochen mit dem Basteln der Karts, der Organisation rund um den Zug und der Beschaffung von Wurfmaterial beschäftigt. Ein aufgrund von Corona und Sturm bisher einmaliges Erlebnis...",
+    ],
+  },
+  {
+    src: "/90Bilder/59_90.jpg",
+    caption: [
+      "1964 - Elternarbeit",
+      "Ein weiterer Archivfund! Damals gab es einen sehr aktiven Elternbeirat, der in der Weihnachtszeit eine Nikolausfeier für den ganzen Stamm organisiert hat.",
+      "Auch heute steht die Leiterrunde immer im engen Konakt mit den Eltern und ist dankbar über jegliche Unterstützung, wie z.B. Kuchenspenden, Fahrdienste, Ausleihe von Hängern oder anderen Fahrzeugen, Kochen im Lager und und und... an dieser Stelle nochmal DANKE! :-)",
+    ],
+  },
+  {
+    src: "/90Bilder/60_90.jpg",
+    caption: [
+      "2008 - Wö-Spaß-Tag",
+      "Erkennt ihr sie zwischen dem ganzen Mais? Unsere Roverin und Wö-Leiterin Pauline im Irrland in Kevelaer. Die Fahrt wurden von den Wö-Leiter*innen aus dem Bezurk organisiert. Bei super Wetter verbrachten ca. 80 Wölfinge gemeinsam einen super Tag auf Rutschen, im Maisbad und auf dem Wasserspielplatz.",
+    ],
+  },
+  {
+    src: "/90Bilder/61_90.jpg",
+    caption: [
+      "2017 - Leiterrundenfahrt",
+      "Auch in der Leiterrund darf der Spaß nicht zu kurz kommen. Einmal im Jahr geht es für die Leiterrunde ein Wochenende weg. Dort werden anstehende Lager geplant, die Leiter*innen auf die Stufen neusortiert oder einfach mal abgeschaltet. Auf dem Bild durfte mal Dampf abgelassen werden und man sich mit Poolnudeln duelliert.",
+    ],
+  },
+  {
+    src: "/90Bilder/62_90.jpg",
+    caption: [
+      "2017 - Leiterrundenfahrt",
+      "Auch in der Leiterrund darf der Spaß nicht zu kurz kommen. Einmal im Jahr geht es für die Leiterrunde ein Wochenende weg. Dort werden anstehende Lager geplant, die Leiter*innen auf die Stufen neusortiert oder einfach mal abgeschaltet. Auf dem Bild durfte mal Dampf abgelassen werden und man sich mit Poolnudeln duelliert.",
+    ],
+  },
   // {
   //   src: "/90Bilder/63_90.jpg",
   //   caption: [],
