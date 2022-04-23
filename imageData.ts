@@ -491,14 +491,20 @@ export const images: Image[] = [
       "Auch in der Leiterrund darf der Spaß nicht zu kurz kommen. Einmal im Jahr geht es für die Leiterrunde ein Wochenende weg. Dort werden anstehende Lager geplant, die Leiter*innen auf die Stufen neusortiert oder einfach mal abgeschaltet. Auf dem Bild durfte mal Dampf abgelassen werden und man sich mit Poolnudeln duelliert.",
     ],
   },
-  // {
-  //   src: "/90Bilder/63_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/64_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/63_90.jpg",
+    caption: [
+      "2015, 2017 und 2020 - Fotomodels Rüsthaus",
+      "Derzeit landet bei vielen DPSG-Mitgliedern die Verbandszeitschrift in den Briefkästen. Wieder mit der dabei der Rüsthaus-Katalog und wieder mitdabei einige vom Stamm Malteser als Fotomodels - schaut mal rein ;-)",
+    ],
+  },
+  {
+    src: "/90Bilder/64_90.jpg",
+    caption: [
+      "1995 - Pfadfi-Sommerlager Wiltz",
+      'Wieder jemand aus der aktuellen Leiterrunde: Unsere Stammes-Kuratin Natalie. Im Lager in Wiltz diente sie als Bräutigam-Führerin während einer Lagerhochzeit. Als Kuratin ist sie mit Mitglied im Vorstand und somit die "geistliche Leitung" des Stammes. Davor war sie aber auch schon Wö- und Pfadileiterin.',
+    ],
+  },
   // {
   //   src: "/90Bilder/65_90.jpg",
   //   caption: [],
