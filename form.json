@@ -1,7 +1,7 @@
 {
   "fvv": 1,
   "pageHistory": 0,
-  "fbzx": "7554393867709488797",
+  "fbzx": "-7038161460542190032",
   "action": "e/1FAIpQLSfJNop9Pd8p4ZIcQ6XgvxfpcaZMuCBDKMQlh9A7Cpm3_uO1gQ",
   "fields": [
     {
@@ -55,6 +55,13 @@
       "required": false
     },
     {
+      "label": "Ich bringe einen Kuchen mit",
+      "type": "CHECKBOX",
+      "id": "155440886",
+      "options": [{ "label": "Ja", "custom": false }],
+      "required": false
+    },
+    {
       "label": "Anmerkungen",
       "type": "LONG_ANSWER",
       "id": "336701212",
@@ -62,8 +69,9 @@
     }
   ],
   "fieldsOrder": {
+    "155440886": 6,
     "295065933": 4,
-    "336701212": 6,
+    "336701212": 7,
     "1045781291": 1,
     "1084548225": 5,
     "1166974658": 2,
