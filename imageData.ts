@@ -487,8 +487,9 @@ export const images: Image[] = [
   {
     src: "/90Bilder/62_90.jpg",
     caption: [
-      "2017 - Leiterrundenfahrt",
-      "Auch in der Leiterrund darf der Spaß nicht zu kurz kommen. Einmal im Jahr geht es für die Leiterrunde ein Wochenende weg. Dort werden anstehende Lager geplant, die Leiter*innen auf die Stufen neusortiert oder einfach mal abgeschaltet. Auf dem Bild durfte mal Dampf abgelassen werden und man sich mit Poolnudeln duelliert.",
+      "1997 - Lagerkoch Markus",
+      "Auch heute noch bekocht Markus gerne die Pfadfinnder in Lagern, wie auf dem Bild bei einer gemütlichen abendlichen Leiterrunde zu erkennen.",
+      'Markus ist neben Lagerkoch, noch Veranwtortlicher für unsere Stammeskasse und "Heimspieler", sowie ehemaliges Leiterrundenmitglied.',
     ],
   },
   {
@@ -505,34 +506,61 @@ export const images: Image[] = [
       'Wieder jemand aus der aktuellen Leiterrunde: Unsere Stammes-Kuratin Natalie. Im Lager in Wiltz diente sie als Bräutigam-Führerin während einer Lagerhochzeit. Als Kuratin ist sie mit Mitglied im Vorstand und somit die "geistliche Leitung" des Stammes. Davor war sie aber auch schon Wö- und Pfadileiterin.',
     ],
   },
-  // {
-  //   src: "/90Bilder/65_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/66_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/67_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/68_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/69_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/70_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/71_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/65_90.jpg",
+    caption: [
+      "2010 - Projektreise Südafrika",
+      "Was für eine Aussicht :-) Diese konnten die Projektteilnehmenden in Mpumalanga (Südafrika) bewundern. Das Wetter spielte mit und alle hatten freie Sicht auf den Canyon. Ebenso zu erkennen die Halstücher der Projektreise. Vielleicht ist das Jubiläum ja nochmal die Gelgenheit dies rauszusuchen und anzuziehen ;-)",
+    ],
+  },
+  {
+    src: "/90Bilder/66_90.jpg",
+    caption: [
+      "1985 - Westernohe und Pfadfinderheim",
+      'Beim Jungpfadfinder*innen-Bundeslager "Regenbogen" war auch damals der Trupp vom Stamm Malteser dabei. In Neuss bereitete der Trupp unter dem Motto "Unsere Truppstunde ist Chaos" seine Vorstellung auf der großen Bühne vor :-D ebenso malten die Juffis passend zum Motto viele kleine Teile eines Regenbogens, den sie auf der Bühne in Westernohe zu einem großen Regenbogen zusammenfügten.',
+    ],
+  },
+  {
+    src: "/90Bilder/67_90.jpg",
+    caption: [
+      "2006 - Wö-Sommerlager Salzbergen",
+      '"Auftsellen zum datenschutzkonformen Foto" hieß es damals womöglich noch nicht, als sich alle Wös mit dem Rücken zur Kamera vor dem Maisfeld positionierten. Wahrscheinlich Teil eines Spieles wie "Wo ist mein Latschen", welches auch heute noch sehr gerne gespielt wird ;-)',
+    ],
+  },
+  {
+    src: "/90Bilder/68_90.jpg",
+    caption: [
+      "2013 - 72 Sunden Aktion",
+      "Wieder ein Geburtstagskind: Unser Wöleiterin Zoe!",
+      "Hier fleißig bei der zweiten 72 Stunden Aktion bei der Errichtung eines Demenzpfads.",
+      "Liebe Zoe,",
+      "Happy Birthday!!!",
+    ],
+  },
+  {
+    src: "/90Bilder/69_90.jpg",
+    caption: [
+      "2011 - Stammeslager Dänemark",
+      "Zwei ehemalige Stammesvorstände auf einem Bild, hier noch als Leiterin und Rover im Stammeslager in Dänemark: Unsere Katrin und unser Christian.",
+      "Christian von den Wös an Stammesmitglied, ehemaliger Vorstand und Leiter der Wölflinge und Juffis.",
+      "Katrin war lange im Stamm Vorsitzende sowie Leiterin der Wölflinge, Juffis und Rover und BDKJ-Statvorsitzende. Seit letzten Jahr ist sie nun auch frisch gewählte Vorsitzende der Freunde und Förderer des Stammes.",
+    ],
+  },
+  {
+    src: "/90Bilder/70_90.jpg",
+    caption: [
+      "1987 - Stammeslager Steiermark",
+      '"Gottesdienst feiern" gehört traditionell auch in ein Sommerlager. Meistens, wie damals in der Steiermark, Open Air oder in einer nahegelegenden Kirche oder Kapelle kommen alle Lagerteilnehmer*innen in Kluft zusammen und finden im manchmal chaotischen und lauten Lageralltag Ruhe und Besinnlichkeit.',
+    ],
+  },
+  {
+    src: "/90Bilder/71_90.jpg",
+    caption: [
+      "2017 - Stammeslager Bentveld",
+      'Am Ende eines Lager heißt es neben Einpacken und Aufräumen auch immer "Reflexion".',
+      "Hierbei wird nochmal das ganze Lager Revuee passieren gelassen. Sei es das Programm, der Lagerplatz oder das Essen, jede*r darf seine Meinung abgeben und berichten was ihm gefallen hat, sein Highlight war oder was nicht so gut lief. Als Leiterrunde ist man immer dankbar über das Feedback der Kinder und Jugendlichen.",
+    ],
+  },
   // {
   //   src: "/90Bilder/72_90.jpg",
   //   caption: [],
