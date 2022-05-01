@@ -561,22 +561,36 @@ export const images: Image[] = [
       "Hierbei wird nochmal das ganze Lager Revuee passieren gelassen. Sei es das Programm, der Lagerplatz oder das Essen, jede*r darf seine Meinung abgeben und berichten was ihm gefallen hat, sein Highlight war oder was nicht so gut lief. Als Leiterrunde ist man immer dankbar über das Feedback der Kinder und Jugendlichen.",
     ],
   },
-  // {
-  //   src: "/90Bilder/72_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/73_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/74_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/75_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/72_90.jpg",
+    caption: [
+      "2001 - Juffi-Filmprojekt",
+      "Die Projektmethode in den Stufen ist fester Bestandteil der Arbeit in der DPSG.",
+      "Der Juffitrupp hat sich damals dazu entschieden einen Film zudrehen. Es gab ein Drehbuch, Kamera-Mädels und -Jungs und die Leiter*innen haben den Schnitt übernommen. Vor Corona wurde der Film noch den aktuellen Pfadis als Inspiration für ein neues Projekt gezeigt.",
+    ],
+  },
+  {
+    src: "/90Bilder/73_90.jpg",
+    caption: [
+      "2017 - 85 Jahre Stamm Malteser",
+      'Vor 5 Jahren haben wir unseren 85. Geburtstag im Rahmen der Leiterrunden-Weihnachtsfeier gefeiert. Unter dem Motto " nicht nur der Stamm, sondern auch wir werden mal alt…" haben wir das Seniorenzentrum Malteser eröffnet und es entstand wohl eins der witzigsten Leiterrunden-Foto in der Stammesgeschichte ;-)',
+    ],
+  },
+  {
+    src: "/90Bilder/74_90.jpg",
+    caption: [
+      "Anfang der 90er - Stammesvorstandbericht",
+      "Während der Stammesversammlung berichten nicht nur die Stufen, was sie im letzten Jahr so unternommen und gemacht haben, sondern auch der Stammesvorstand. So wie hier auf dem Bild Christoph und Ingo mit der neusten Technik auf den Stufen im alten Pfarrsaal.",
+      "Die Telefone wurden auch später noch im Stammeslager in Frankreich genutzt. Der Zeltplatz war sehr weitläufig und die Stufen übernachteten teilweise weit von einander weg. So kam die damalige Leiterrunde auf die Idee, um die Kommunikation zu verbessern, Telefone in den Leiterzelten und in der Küche zu installieren. Einst der wenigen Lager vor dem Handy-Zeitalter, wo es regelmäßig in den Zelten klingelte ;-)",
+    ],
+  },
+  {
+    src: "/90Bilder/75_90.jpg",
+    caption: [
+      "2014 - Stammeslager Österreich Zellhof",
+      'Das Stammeslager stand unter dem Motto "365 Tage in 14 Tagen". Zu Beginn gab es eine Neujahrsansprache, es wurde Ostern, St. Martin und Weihnachten gefeiert und natürlich, wie es sich für echte "Nüsser*innen" gehört auch Schützenfest gefeiert. Die anderen Pfadfindergruppen haben schon sehr fragend geschaut, als das ganze Regiment von Sappeuren bis Reiter, über den Zeltplatz marschierte.',
+    ],
+  },
   // {
   //   src: "/90Bilder/76_90.jpg",
   //   caption: [],
