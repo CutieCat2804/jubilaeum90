@@ -110,7 +110,7 @@ export default function Home() {
               22. Mai
             </Text>
             <List textStyle="text-2xs">
-              <ListItem> 90 gute Taten</ListItem>
+              <ListItem> 90 Lilien in Neuss</ListItem>
               <ListItem> Tag für Stammesmitglieder</ListItem>
             </List>
           </GridItem>
