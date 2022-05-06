@@ -591,18 +591,31 @@ export const images: Image[] = [
       'Das Stammeslager stand unter dem Motto "365 Tage in 14 Tagen". Zu Beginn gab es eine Neujahrsansprache, es wurde Ostern, St. Martin und Weihnachten gefeiert und natürlich, wie es sich für echte "Nüsser*innen" gehört auch Schützenfest gefeiert. Die anderen Pfadfindergruppen haben schon sehr fragend geschaut, als das ganze Regiment von Sappeuren bis Reiter, über den Zeltplatz marschierte.',
     ],
   },
-  // {
-  //   src: "/90Bilder/76_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/77_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/78_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/76_90.jpg",
+    caption: [
+      "2002 - Stammeslager Stamm St. Marien Witten",
+      "Da Sandra noch nicht so lange bei uns im Stamm ist, posten wir heute ein Foto aus dem Stammeslager 2002 vom Stamm St. Marien in Witten, wo Sandra gebürtig herkommt. ;-)",
+      'Sandra war lange Pfadi-Leiterin bei uns im Stamm und ist aktive "Heimspielerin".',
+      "Liebe Sandra, heute ist dein Geburtstag: Herzlichen Glückwunsch.",
+    ],
+  },
+  {
+    src: "/90Bilder/77_90.jpg",
+    caption: [
+      "1980er - Gruppenfotos",
+      "Viele dieser Fotos schmücken unsere Wände im Truppraum und jedes Jahr kommen neue hinzu. Für alle ist es schön immer mal wieder einen Blick auf die guten alten Zeiten zu werfen und sich selbst als Wö oder Juffi zu sehen und zu grinsen.",
+    ],
+  },
+  {
+    src: "/90Bilder/78_90.jpg",
+    caption: [
+      "2017 - Stammeslager Bentveld",
+      'Ebenso wie das Schützenfest 2014 in Österreich haben bei unserer organisierten Safari über den Lagerplatz die anderen Pfadfindergruppen sehr erstaunt geschaut. Angeführt vom Kapitän Hansen ging es für die Pfadfinder*innen in "Afrika" auf Safari und sie entdeckten viele verschiedenen Tiere:',
+      "Erdmännchen im Küchenzelt, Affen in den Bäumen, ein Löwe der ein Zebra verspeiste und und und...",
+      "Natürlich waren es keine echten Tiere, die Leiterrunde hatte sich verkleidet und sich auf dem Lagerplatz versteckt ;-) ein witziges Erlebnis für alle Kids und Leiter*innen.",
+    ],
+  },
   // {
   //   src: "/90Bilder/79_90.jpg",
   //   caption: [],
