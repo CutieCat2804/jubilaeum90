@@ -616,18 +616,23 @@ export const images: Image[] = [
       "Natürlich waren es keine echten Tiere, die Leiterrunde hatte sich verkleidet und sich auf dem Lagerplatz versteckt ;-) ein witziges Erlebnis für alle Kids und Leiter*innen.",
     ],
   },
-  // {
-  //   src: "/90Bilder/79_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/80_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/81_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/79_90.jpg",
+    caption: ['1947 - Alte Pfadfinderausweise',
+    'Noch ein echter Archivfund. Alte Pfadfinderausweise aus den 40er Jahren. Damals gab es noch Prüfungen in der Laufband jedes*jeder Pfadfinder*in zu absolvieren, wie "Nachweis der Sparksamkeit" oder "Mut- und Schweigeprobe".'],
+  },
+  {
+    src: "/90Bilder/80_90.jpg",
+    caption: ['2019 - Werbung für neue Leiter*innen',
+    'Vor drei Jahren konnte man diese Bierdeckel in der ein oder anderen Kneipe in Neuss sehen. Mit dem witzigen Spruch und unseren Kontaktdaten auf der Rückseite wollten wir neue Leiter*innen ansprechen.'],
+  },
+  {
+    src: "/90Bilder/81_90.jpg",
+    caption: [
+      "2007 - Zirkuszelt",
+      "Unser schönes Zirkuszelt hier beim 75jährigen Jubiläum auf der Pfarrwiese. Schwierig aufzubauen, aber wenn es mal steht das Highlight auf jedem Zeltplatz. Vor dem Umbau des Pfarrzentrums haben wir das Zelt auch jedes Jahr auf der Pfarrwiese für das Pfarrfest aufgebaut.",
+    ],
+  },
   // {
   //   src: "/90Bilder/82_90.jpg",
   //   caption: [],
