@@ -618,13 +618,17 @@ export const images: Image[] = [
   },
   {
     src: "/90Bilder/79_90.jpg",
-    caption: ['1947 - Alte Pfadfinderausweise',
-    'Noch ein echter Archivfund. Alte Pfadfinderausweise aus den 40er Jahren. Damals gab es noch Prüfungen in der Laufband jedes*jeder Pfadfinder*in zu absolvieren, wie "Nachweis der Sparksamkeit" oder "Mut- und Schweigeprobe".'],
+    caption: [
+      "1947 - Alte Pfadfinderausweise",
+      'Noch ein echter Archivfund. Alte Pfadfinderausweise aus den 40er Jahren. Damals gab es noch Prüfungen in der Laufband jedes*jeder Pfadfinder*in zu absolvieren, wie "Nachweis der Sparksamkeit" oder "Mut- und Schweigeprobe".',
+    ],
   },
   {
     src: "/90Bilder/80_90.jpg",
-    caption: ['2019 - Werbung für neue Leiter*innen',
-    'Vor drei Jahren konnte man diese Bierdeckel in der ein oder anderen Kneipe in Neuss sehen. Mit dem witzigen Spruch und unseren Kontaktdaten auf der Rückseite wollten wir neue Leiter*innen ansprechen.'],
+    caption: [
+      "2019 - Werbung für neue Leiter*innen",
+      "Vor drei Jahren konnte man diese Bierdeckel in der ein oder anderen Kneipe in Neuss sehen. Mit dem witzigen Spruch und unseren Kontaktdaten auf der Rückseite wollten wir neue Leiter*innen ansprechen.",
+    ],
   },
   {
     src: "/90Bilder/81_90.jpg",
@@ -633,26 +637,50 @@ export const images: Image[] = [
       "Unser schönes Zirkuszelt hier beim 75jährigen Jubiläum auf der Pfarrwiese. Schwierig aufzubauen, aber wenn es mal steht das Highlight auf jedem Zeltplatz. Vor dem Umbau des Pfarrzentrums haben wir das Zelt auch jedes Jahr auf der Pfarrwiese für das Pfarrfest aufgebaut.",
     ],
   },
-  // {
-  //   src: "/90Bilder/82_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/83_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/84_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/85_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/86_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/82_90.jpg",
+    caption: [
+      "1977 - Pfiff-Meute",
+      'Damals wurde unsere Wölflingsmeute TORNADO zur "Pfiff-Meute" ernannt. Vorraussetzung war die Teilnahme an einer Bezirksaktion, sich in Rudel auszuteilen und Leitwölfe zu bestimmen. Zudem musste man der Meute auch einen Namen geben, die Geburtstunde der Neusser Wö-Meute Tornado.',
+    ],
+  },
+  {
+    src: "/90Bilder/83_90.jpg",
+    caption: [
+      "2003 - World Scout Jamboree",
+      "Mittlerweile gute Tradition im Stamm Malteser ist die Teilnahme von Pfadis beim Weltpfadfinder*innen-Treffen, dem World Scout Jamboree. Beim Jamboree kommen Pfadfinder*innen aus der ganzen Welt zu einem riesigen Lager zusammen.",
+      "Teilnahmen aus der jungen Vergangenheit:",
+      "2003 - Thailand",
+      "2015 - Japan",
+      "2019 - USA",
+      "… 2023 - Südkorea",
+      "Am Ende gibt es dann neben jede Menge Aufnäher, tollen Erlebnissen auch eine offizielle Urkunde, wie die von Katrin aus dem Jahr 2003.",
+    ],
+  },
+  {
+    src: "/90Bilder/84_90.jpg",
+    caption: [
+      "90er - Sommerlager der Wös",
+      "Typisch für ein Sommerlager: Die Lagerkappe in der jeweiligen Stufenfarbe. Bei den Wös, wie auf dem Bild gut zuerkennen, natürlich Orange!",
+      " Vorteilhaft v.a. wenn man auf Ausflügen unterwegs ist und man seine quirrlige Wölflingsmeute an den Kopfbedeckungen erkennen kann. :-)",
+    ],
+  },
+  {
+    src: "/90Bilder/85_90.jpg",
+    caption: [
+      "2002 - Besuch Feuerwehr",
+      "Für alle Wölflinge immer ein echtes Highlight: ein Besuch bei der Feuerwehr.",
+      " Dank Ehemaligen können die Jungen und Mädchen einen Einblick in die Arbeit der Feuerwehr bekommen.",
+    ],
+  },
+  {
+    src: "/90Bilder/86_90.jpg",
+    caption: [
+      "2011 - Stammeslager Dänemark",
+      "Dürfen wir vorstellen… König Uli ;-)",
+      'Unser Juffileiter und Noch-Rover. Man munkelt er ist auch unter seinem bürgerlichen Namen "Alessandro" bekannt. Bei der Pfadfindern heißt er seit Wölflingsstufe einfach nur "Uli". ',
+    ],
+  },
   // {
   //   src: "/90Bilder/87_90.jpg",
   //   caption: [],
