@@ -681,20 +681,30 @@ export const images: Image[] = [
       'Unser Juffileiter und Noch-Rover. Man munkelt er ist auch unter seinem bürgerlichen Namen "Alessandro" bekannt. Bei der Pfadfindern heißt er seit Wölflingsstufe einfach nur "Uli". ',
     ],
   },
-  // {
-  //   src: "/90Bilder/87_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/88_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/89_90.jpg",
-  //   caption: [],
-  // },
-  // {
-  //   src: "/90Bilder/90_90.jpg",
-  //   caption: [],
-  // },
+  {
+    src: "/90Bilder/87_90.jpg",
+    caption: [
+      "80er - Lagerbauten",
+      "Bestandteil jedes Lagers ist es Lagerbauten zu bauen. Sei es ein Turm, Bannermast oder die Vollausstattung aus Tischen und Bänken. Gemeinsam an einem großen Projekt arbeiten, was man dann während des Lagers gemeinsam benutzt und wertvoll erachtet - einfach super!",
+    ],
+  },
+  {
+    src: "/90Bilder/88_90.jpg",
+    caption: [
+      "2019 - Stammes-Winterfahrt Weeze",
+      'Strahlende und wie im Bild erstaunte Kindergesichter ist wöfür die Leiterrunde unter anderem arbeitet. Die Liebe steckt man im Detail, wie bei dieser selbst gemachten Pinata ganz unter dem Motto des Lagers "Irgendwas mit Zwergen" ;-) Überlebt hat die prall mit Süßigkeiten gefüllte Zwergen-Pinata natürlich nicht',
+    ],
+  },
+  {
+    src: "/90Bilder/89_90.jpg",
+    caption: [
+      "2017 - Leiterrunden-Fahrt",
+      " Ihr ein paar Gesichter, die die junge Vergangenheit und die Gegenwart der derzeitigen Leiterrunde zeigt. Ohne diese Gesichter, die alle ehrenamtlich arbeiten, hätte unzählige Kinder und Jugendliche nicht die Chance sich bei den Pfadfindern auszuleben, Spaß zu haben, auf Lager zu fahren, hinter die Dinge zu schauen, sich für andere einzusetzen und die wöchtenlichen Gruppenstunden  zu erleben.",
+      "Danke an alle, die in den 90 Jahren die Stammesarbeit mitgestaltet haben.",
+    ],
+  },
+  {
+    src: "/90Bilder/90_90.jpg",
+    caption: [],
+  },
 ];
