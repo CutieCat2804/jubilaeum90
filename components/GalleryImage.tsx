@@ -19,7 +19,21 @@ interface GalleryImageProps {
 const GalleryImage: React.FC<GalleryImageProps> = (props) => {
   const { src, alt, caption, textStyle, day } = props;
 
-  const Img = (
+  const Img = src.includes("MP4") ? (
+    <video
+      style={{
+        maxHeight: "70vh",
+        margin: "auto",
+        alignSelf: "center",
+        objectFit: "contain",
+        marginBottom: "16px",
+        marginTop: "16px",
+      }}
+      controls
+    >
+      <source src={src}></source>
+    </video>
+  ) : (
     <Image
       maxHeight="70vh"
       margin="auto"
@@ -40,7 +54,7 @@ const GalleryImage: React.FC<GalleryImageProps> = (props) => {
         ratio={1}
         margin="8px auto 0"
         display={{ base: "none", sm: "block" }}
-        onClick={onOpen}
+        onClick={src.includes("jpg") && onOpen}
       >
         {Img}
       </AspectRatio>

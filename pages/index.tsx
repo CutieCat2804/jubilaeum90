@@ -139,7 +139,7 @@ export default function Home() {
             90 Tage vor dem Jubiläum haben wir unsere Fotochallenge begonnen.
             Jeden Tag posten wir hier und auf Social Media ein Bild
           </Text>
-          {images[imageCount] && (
+          {images[imageCount - 1] && (
             <GalleryImage
               src={images[imageCount - 1].src}
               alt={day}

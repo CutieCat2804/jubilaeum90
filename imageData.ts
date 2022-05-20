@@ -704,7 +704,14 @@ export const images: Image[] = [
     ],
   },
   {
-    src: "/90Bilder/90_90.jpg",
-    caption: [],
+    src: "/90Bilder/0204b768-42b5-4768-8a16-f52720eb75a6.MP4",
+    caption: [
+      "2022 - 90 Jahre Stamm Malteser",
+      "Heute starten wir mit den Stammesmitgliedern in unser Jubiläums-Wochenende 🥳",
+      "Morgen folgt dann das große Highlight. Wir freuen uns über alle die kommen:",
+      "Eltern, Freunde und Förderer, Ehemalige und und und...",
+      "",
+      "Zum Abschluss der Challenge gibt es noch einen kleinen Zusammenschnitt aller Fotos, die wir in der digitalen Auswahl hatten.",
+    ],
   },
 ];
