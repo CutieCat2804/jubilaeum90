@@ -39,7 +39,7 @@ export default function Galerie() {
           columnGap={6}
         >
           {images
-            .slice(0, imageCount + 1)
+            .slice(0, imageCount)
             .map((image, index) => {
               const day = "Tag " + (index + 1);
 

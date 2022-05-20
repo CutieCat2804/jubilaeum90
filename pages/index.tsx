@@ -141,9 +141,9 @@ export default function Home() {
           </Text>
           {images[imageCount] && (
             <GalleryImage
-              src={images[imageCount].src}
-              alt={day + 1}
-              caption={images[imageCount].caption}
+              src={images[imageCount - 1].src}
+              alt={day}
+              caption={images[imageCount - 1].caption}
               textStyle="text-xs"
               day={day}
             />
